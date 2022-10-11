@@ -1,3 +1,16 @@
 .divs {
     margin: 40px;
 }
+
+.que-icon {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 40px;
+}
+
+.icon {
+    font-size: 24px;
+    border: none;
+    background-color: #fff;
+}

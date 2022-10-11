@@ -1,11 +1,13 @@
 import React from 'react';
 import './QuizDisplay.css'
-const QuizDisplay = ({ quizAns, question }) => {
-    // console.log(quizAns);
+const QuizDisplay = ({ quizAns, correctAnswer }) => {
+
+
+
     return (
         <div className='div'>
             <p> <input type="radio" name="" id="" /> {quizAns}</p>
-        </div>
+        </div >
     );
 };
 

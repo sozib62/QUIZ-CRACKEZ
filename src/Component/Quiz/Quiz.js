@@ -6,7 +6,7 @@ const Quiz = () => {
     return (
         <div>
 
-
+            <h1>ajfkldjfkja</h1>
         </div>
     );
 };

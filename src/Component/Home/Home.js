@@ -6,6 +6,7 @@ import './Home.css'
 const Home = () => {
     const loadData = useLoaderData();
     const { data } = loadData;
+    // console.log(data);
     return (
         <div>
             {
