@@ -1,6 +1,21 @@
 .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+    background-color: rgb(203, 234, 247);
+    padding: 0 50px;
+    color: rgb(84, 107, 116);
+}
+
+.link a {
     text-decoration: none;
-    color: skyblue;
+    font-size: 20px;
     margin-left: 20px;
-    text-align: center;
+    color: rgb(84, 107, 116);
+}
+
+.link a:hover {
+    color: blue;
+    font-weight: bold;
 }
