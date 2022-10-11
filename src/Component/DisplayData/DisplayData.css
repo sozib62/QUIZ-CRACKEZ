@@ -1,0 +1,11 @@
+.data {
+    background-color: antiquewhite;
+    margin: 60px;
+    width: 500px;
+    height: 500px;
+}
+
+.data img {
+    height: 350px;
+    width: 350px;
+}

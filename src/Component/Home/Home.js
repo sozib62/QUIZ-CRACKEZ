@@ -1,9 +1,19 @@
 import React from 'react';
+import { useLoaderData } from 'react-router-dom';
+import DisplayData from '../DisplayData/DisplayData';
+import './Home.css'
 
 const Home = () => {
+    const loadData = useLoaderData();
+    const { data } = loadData;
     return (
         <div>
-            <h2>this is Home</h2>
+            {
+                data.map(datas => <DisplayData
+                    key={datas.id}
+                    data={datas}
+                ></DisplayData>)
+            }
         </div>
     );
 };
