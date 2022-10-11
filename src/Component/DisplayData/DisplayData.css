@@ -1,5 +1,7 @@
 .data {
-    background-color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    background-color: rgb(181, 224, 241);
     margin: 60px;
     width: 500px;
     height: 500px;

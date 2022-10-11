@@ -10,7 +10,7 @@ const DisplayData = ({ data }) => {
             <div className='datas'>
                 <img src={logo} alt="" />
                 <h1>{name}</h1>
-                <Link to={`Quiz/${id}`}>Start Quiz</Link>
+                <Link to={`quizData/${id}`}>Start Quiz</Link>
             </div>
         </div>
     );
