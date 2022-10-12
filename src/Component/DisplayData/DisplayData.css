@@ -17,10 +17,43 @@
     background-color: rgb(23, 204, 180);
     border-radius: 10px;
     padding: 5px;
+    color: white;
+    font-size: 20px;
 }
 
 .link-btn a {
     text-decoration: none;
     color: white;
     font-size: 20px;
+}
+
+
+@media screen and (max-width:576px) {
+    .data {
+        flex-direction: column;
+        background-color: rgb(181, 224, 241);
+        width: 300px;
+        height: 300px;
+    }
+
+    .data img {
+        height: 200px;
+        width: 200px;
+    }
+
+}
+
+@media screen and (max-width:768px) {
+    .data {
+        flex-direction: column;
+        background-color: rgb(181, 224, 241);
+        width: 400px;
+        height: 400px;
+    }
+
+    .data img {
+        height: 300px;
+        width: 300px;
+    }
+
 }
