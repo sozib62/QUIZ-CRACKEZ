@@ -10,7 +10,7 @@
     margin-left: 100px;
 }
 
-@media screen and (min-width:576px) {
+@media screen and (max-width:576px) {
     .head-title {
         width: 250px;
         height: 250px;
