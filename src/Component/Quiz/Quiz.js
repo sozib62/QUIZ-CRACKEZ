@@ -1,12 +1,12 @@
-import React from 'react';
+import React, { createContext, useContext } from 'react';
 
 
 const Quiz = () => {
 
+
     return (
         <div>
 
-            <h1>ajfkldjfkja</h1>
         </div>
     );
 };
