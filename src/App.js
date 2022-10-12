@@ -44,10 +44,10 @@ function App() {
         },
       ]
     },
-    // {
-    //   path: '*',
-    //   element: <Error></Error>
-    // }
+    {
+      path: '*',
+      element: <Error></Error>
+    }
 
   ])
   return (
