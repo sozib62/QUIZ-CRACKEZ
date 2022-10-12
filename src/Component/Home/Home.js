@@ -1,13 +1,12 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import DisplayData from '../DisplayData/DisplayData';
-import QuizData from '../QuizData/QuizData';
 import './Home.css'
 
 const Home = () => {
-    const loadData = useLoaderData();
-    const { data } = loadData;
-    // console.log(data);
+    const quizName = useLoaderData();
+    const { data } = quizName;
+
     return (
         <div>
             <div className='head-title'>
