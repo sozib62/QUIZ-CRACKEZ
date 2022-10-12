@@ -7,7 +7,7 @@ const Header = () => {
     return (
         <nav className='header'>
             <div>
-                <h2>Select Quiz</h2>
+                <h2>Select Your Quiz</h2>
             </div>
             <div className='link'>
                 <Link to='/'>Home</Link>

@@ -6,3 +6,7 @@
     background-color: rgb(230, 243, 248);
     padding: 10px;
 }
+
+.btn {
+    border: none;
+}

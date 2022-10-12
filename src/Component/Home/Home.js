@@ -9,12 +9,20 @@ const Home = () => {
     // console.log(data);
     return (
         <div>
-            {
-                data.map(datas => <DisplayData
-                    key={datas.id}
-                    data={datas}
-                ></DisplayData>)
-            }
+            <div className='head-title'>
+                <h3> A website with interactive quizzes can be a dynamic project and a great way to grow your knowladge. By creating your
+                    <br />
+                    quiz website with WordPress, you have complete control over the features, design, and monetization of your quiz site.</h3>
+            </div>
+
+            <div className='quiz-div'>
+                {
+                    data.map(datas => <DisplayData
+                        key={datas.id}
+                        data={datas}
+                    ></DisplayData>)
+                }
+            </div>
         </div>
     );
 };

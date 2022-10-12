@@ -2,12 +2,25 @@
     display: flex;
     justify-content: center;
     background-color: rgb(181, 224, 241);
-    margin: 60px;
-    width: 500px;
-    height: 500px;
+    margin: 60px 150px;
+    width: 400px;
+    height: 420px;
 }
 
 .data img {
-    height: 350px;
-    width: 350px;
+    height: 300px;
+    width: 300px;
+}
+
+.link-btn {
+    border: none;
+    background-color: rgb(23, 204, 180);
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.link-btn a {
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
 }
