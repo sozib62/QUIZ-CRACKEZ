@@ -1,6 +1,7 @@
 import React from 'react';
 import { useLoaderData } from 'react-router-dom';
 import DisplayData from '../DisplayData/DisplayData';
+import QuizData from '../QuizData/QuizData';
 import './Home.css'
 
 const Home = () => {
@@ -10,9 +11,7 @@ const Home = () => {
     return (
         <div>
             <div className='head-title'>
-                <h3> A website with interactive quizzes can be a dynamic project and a great way to grow your knowladge. By creating your
-                    <br />
-                    quiz website with WordPress, you have complete control over the features, design, and monetization of your quiz site.</h3>
+                <h1>As You Do Practice <span className='title-part'>YOUR QUIZ</span></h1>
             </div>
 
             <div className='quiz-div'>
@@ -22,6 +21,8 @@ const Home = () => {
                         data={datas}
                     ></DisplayData>)
                 }
+
+
             </div>
         </div>
     );
